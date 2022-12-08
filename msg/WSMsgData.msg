@@ -1,3 +1,2 @@
 string str
-byte bytes
-
+uint8[] bytes

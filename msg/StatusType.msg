@@ -1,2 +1,0 @@
-uint8 STARTUP=11
-uint8 SHUTDOWN=12

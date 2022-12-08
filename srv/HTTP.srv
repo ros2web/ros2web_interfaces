@@ -5,20 +5,20 @@ string method     # HTTP method,
 string path       # The URL including PATH INFO without the host or scheme. 
 string query      # The query string in the URL
 
-string[] ws     # [<event>, <ws_id>] 
 string srv_name
 string route
 
-byte body
+uint8[] body
 string text
 string content_type   # ContentType
 string charset
+BodyPart[] multipart
 ---
 # string[] headers
 uint16 status # HTTPStatusCode
 string reason
 
-byte body
+uint8[] body
 string text
 string content_type   # ContentType
 string charset
@@ -27,5 +27,3 @@ string charset
 
 string file_path
 # int32 chunk_size
-
-string node_name

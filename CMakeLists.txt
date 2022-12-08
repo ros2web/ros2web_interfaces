@@ -11,17 +11,16 @@ find_package(rosidl_default_generators REQUIRED)
 
 
 rosidl_generate_interfaces(${PROJECT_NAME}
+  "msg/BodyPart.msg"
   "msg/ContentType.msg"
   "msg/HTTPStatusCode.msg"
-
-  "msg/StatusMsg.msg"
-  "msg/StatusType.msg"
-
+  
   "msg/WSMsgData.msg"
   "msg/WSMsgType.msg"
   "msg/WSMsg.msg"
 
   "srv/HTTP.srv"
+  "srv/WS.srv"
   "srv/ServerInfo.srv"
 )
 
